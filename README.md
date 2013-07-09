@@ -32,11 +32,11 @@ Varspotting report for built-in namespaces:
 
 |                  Spotter | Var count |
 |--------------------------+-----------|
-|                   Public |       831 |
+|                   Public |       844 |
 |                  Unbound |         6 |
 |                  Dynamic |        39 |
-|         Proper functions |       658 |
-|                   Macros |        98 |
+|         Proper functions |       670 |
+|                   Macros |        99 |
 |              Non-fn IFns |        17 |
 | Dynamic proper functions |         6 |
 ```
