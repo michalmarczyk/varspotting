@@ -46,7 +46,7 @@ Varspotting can be used as a library or a Leiningen plugin. The
 Leiningen dependency specifier is
 
 ```clj
-[varspotting "0.0.1"]
+[varspotting "0.0.2"]
 ```
 
 Including this dependency in the `:user` profile will make Varspotting
@@ -54,7 +54,7 @@ available in all Leiningen projects:
 
 ```clj
 ;; in ~/.lein/profiles.clj
-{:user {:plugins [[varspotting "0.0.1"]]}}
+{:user {:plugins [[varspotting "0.0.2"]]}}
 ```
 
 Note that Varspotting currently has no dependencies besides Clojure.
@@ -74,7 +74,7 @@ lein varspotting <namespaces-to-report-on>
 
 to get a report on the specified namespaces. In this way, Varspotting
 can be used to report on arbitrary Clojure libraries. Here's the
-default report on Varspotting 0.0.1:
+default report on Varspotting 0.0.2:
 
 ```
 Varspotting report for varspotting.core, leiningen.varspotting:
