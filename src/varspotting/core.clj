@@ -3,8 +3,8 @@
 
   This namespace defines the spotter and defspotter macros, a
   collection of basic spotters and tools for calling spotters and
-  printing spotting returns. See varspotting.main for an example of
-  usage."
+  printing spotting returns. See leiningen.varspotting for an example
+  of usage."
   (:require [clojure.walk :as walk]
             [clojure.pprint :refer [print-table]])
   (:import (clojure.lang Var Var$Unbound)))

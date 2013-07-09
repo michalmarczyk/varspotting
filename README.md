@@ -77,8 +77,8 @@ can be used to report on arbitrary Clojure libraries. Here's the
 default report on Varspotting 0.0.1:
 
 ```
-Varspotting report for varspotting.core, varspotting.main:
-========================================================== 
+Varspotting report for varspotting.core, leiningen.varspotting:
+===============================================================
 
 |                  Spotter | Var count |
 |--------------------------+-----------|
