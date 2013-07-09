@@ -1,4 +1,4 @@
-(defproject varspotting "0.0.2-SNAPSHOT"
+(defproject varspotting "0.0.2"
   :description "Spotting Clojure Vars for fun and profit!"
   :url "https://github.com/michalmarczyk/varspotting"
   :license {:name "Eclipse Public License"
