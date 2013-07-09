@@ -58,6 +58,10 @@
   [nss]
   (->> nss
        (map ns-publics)
+       (map #(reduce-kv (fn [m k v]
+                          (assoc m (symbol (name (.. v -ns -name)) (name k)) v))
+                        {}
+                        %))
        (apply merge)
        vals
        set))
